@@ -24,17 +24,15 @@ LOCATOR_LIST = {
 
 
 class BasePage:
-    def __init__(self, driver: WebDriver, url=None):
+    def __init__(self, driver: WebDriver):
         self._driver = driver
-        self.root_uri = url if url else getattr(self._driver, 'url', None)
 
-    def get(self, uri, cookies=None):
-        root_uri = self.root_uri or ''
-        self._driver.get(root_uri + uri)
+    def get(self, url, cookies=None):
+        self._driver.get(url)
         if cookies:
             for k, v in cookies.items():
                 self._driver.add_cookie({"name": k, "value": v})
-            self._driver.get(root_uri + uri)
+            self._driver.get(url)
 
     # 执行js
     def run_script(self, js=None, elm=None):
@@ -63,7 +61,6 @@ class BasePage:
                 EC.presence_of_element_located(locator))
             # return self._driver.find_element(*locator)
             return element
-
         except:
             for i in range(timeout_int):
                 element = self._driver.find_element(*locator)
@@ -73,35 +70,22 @@ class BasePage:
                     time.sleep(1)
 
             else:
-
                 # 截图
                 self.screenshot()
                 # 记录日志
                 logger.info("timeout, element {} not found!".format(value))
                 return None
-    # 定位多个元素
-    def find_elements(self, locator, value, timeout=5):
 
-        try:
-            try:
-                timeout_int = int(timeout)
-            except TypeError:
-                raise ValueError("Type 'timeout' error, must be type int() ")
-            try:
-                locator = (LOCATOR_LIST[locator], value)
-            except KeyError:
-                raise KeyError(
-                    "Please use a locator：'id_'、'name'、'class_name'、'css'、'xpath'、'link_text'、'partial_link_text'.")
-            WebDriverWait(self._driver, timeout_int).until(
-                EC.presence_of_all_elements_located(locator))
-            return self._driver.find_elements(*locator)
+    # 上滑动页面，看下方的内容
+    def slip_down(self, step="300", times=1):
+        scrip_content = "window.scrollBy(0," + step + ")"
+        for i in range(times):
+            self._driver.execute_script(scrip_content)
+            time.sleep(1)
 
-        except:
-            # 截图
-            self.screenshot()
-            # 记录日志
-            logger.info("timeout, element {} not found!".format(value))
-            return None
+    def slip_up(self, step="300", times=1):
+        step = str(abs(int(step)) * -1)  # 确保输入啥都是负数
+        self.slip_down(step, times)
 
     # 点击单选按钮
     def radio_checked(self, radio_name, radio_value):
@@ -143,21 +127,4 @@ class BasePage:
             logger.info("timeout, element {} not found!".format(value))
             return None
 
-    # 判断某个元素中是否不存在于dom树或不可见
-    def invisibility_of_element(self, locator, value, timeout=10):
-        try:
-            try:
-                locator = (LOCATOR_LIST[locator], value)
-            except KeyError:
-                raise KeyError(
-                    "Please use a locator：'id_'、'name'、'class_name'、'css'、'xpath'、'link_text'、'partial_link_text'.")
-            WebDriverWait(self._driver, timeout).until(
-                EC.invisibility_of_element_located(locator))
-        except:
-            logger.info("timeout, element {} not found!".format(value))
-
-    def file_path(self, path):
-        new_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + path
-        new_path = new_path.replace("\\", "/")
-        return new_path
 
