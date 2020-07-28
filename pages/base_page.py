@@ -1,6 +1,8 @@
 import logging
 import time
 import os
+
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.wait import WebDriverWait
@@ -126,5 +128,16 @@ class BasePage:
         except:
             logger.info("timeout, element {} not found!".format(value))
             return None
+
+    def is_element_exist(self, by, locator):
+        flag = None
+        time.sleep(1)
+        try:
+            self._driver.find_element(by, locator)
+            flag = True
+        except NoSuchElementException:
+            flag = False
+        finally:
+            return flag
 
 

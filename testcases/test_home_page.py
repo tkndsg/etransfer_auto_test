@@ -41,9 +41,9 @@ class TestHomePage:
         self.home_page.click_search_box()
         assert "博斯希尔中学" in self.home_page._driver.page_source
         self.home_page.search_box_input("悉尼大学")
-        sleep(1)
         self.home_page.select_first_school()
-        sleep(3)
+        assert "The University of Sydney" in self.home_page._driver.page_source
+        sleep(1)
 
     def teardown_class(self):
         self.driver.quit()
