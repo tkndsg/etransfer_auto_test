@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94cd4130-d1ed-4a12-aebc-e07df9279770" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fH9jqsjL5cdQ9FjIUMzTiD6Ktc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/testcases" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testcases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_home_page.TestHomePage">
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="etransfer_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_home_page.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for driver.TestDriver" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="etransfer_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;driver.TestDriver&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for driver.TestDriver.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="etransfer_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;driver.TestDriver.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_home_page.TestHomePage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="etransfer_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_home_page.TestHomePage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_home_page.TestHomePage.test_click_input" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="etransfer_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_home_page.TestHomePage.test_click_input&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_home_page.TestHomePage.test_switch_tab_to_insurance" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="etransfer_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_home_page.TestHomePage.test_switch_tab_to_insurance&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for testcases.test_home_page.TestHomePage.test_click_input" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="etransfer_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcases.test_home_page.TestHomePage.test_click_input&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in driver.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="etransfer_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/driver.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_home_page.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="etransfer_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/test_home_page.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest in driver.py" />
+      <item itemvalue="Python tests.pytest in test_home_page.py" />
+      <item itemvalue="Python tests.pytest for testcases.test_home_page.TestHomePage.test_click_input" />
+      <item itemvalue="Python tests.pytest for driver.TestDriver" />
+      <item itemvalue="Python tests.pytest for driver.TestDriver.test_login" />
+      <item itemvalue="Python tests.pytest for test_home_page.TestHomePage" />
+      <item itemvalue="Python tests.pytest for test_home_page.TestHomePage.test_click_input" />
+      <item itemvalue="Python tests.pytest for test_home_page.TestHomePage.test_switch_tab_to_insurance" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_home_page.TestHomePage" />
+        <item itemvalue="Python tests.pytest for test_home_page.TestHomePage.test_switch_tab_to_insurance" />
+        <item itemvalue="Python tests.pytest for test_home_page.TestHomePage.test_click_input" />
+        <item itemvalue="Python tests.pytest for driver.TestDriver.test_login" />
+        <item itemvalue="Python tests.pytest for driver.TestDriver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94cd4130-d1ed-4a12-aebc-e07df9279770" name="Default Changelist" comment="" />
+      <created>1595864288409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595864288409</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="179" width="1071" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595907529722">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="304" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595907529722" />
+    <state x="304" y="170" width="1071" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595869616938" />
+    <state x="577" y="306" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595868805130">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state x="577" y="306" key="#com.intellij.ide.util.TreeClassChooserDialog/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595868805130" />
+    <state x="535" y="138" key="#pytest_for_TestHomePage.TestHomePage.test_click_input" timestamp="1595869605736">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state x="535" y="138" key="#pytest_for_TestHomePage.TestHomePage.test_click_input/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595869605736" />
+    <state x="535" y="137" key="#pytest_in_TestHomePage.py" timestamp="1595869487438">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state x="535" y="137" key="#pytest_in_TestHomePage.py/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595869487438" />
+    <state x="535" y="134" key="#test_home_page" timestamp="1595868749826">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state x="535" y="134" key="#test_home_page/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595868749826" />
+    <state width="1636" height="261" key="GridCell.Tab.0.bottom" timestamp="1595916930152">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1636" height="261" key="GridCell.Tab.0.bottom/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595915926258" />
+    <state width="1636" height="261" key="GridCell.Tab.0.bottom/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595916930152" />
+    <state width="1636" height="261" key="GridCell.Tab.0.bottom/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595871227081" />
+    <state width="1636" height="261" key="GridCell.Tab.0.center" timestamp="1595916930151">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1636" height="261" key="GridCell.Tab.0.center/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595915926257" />
+    <state width="1636" height="261" key="GridCell.Tab.0.center/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595916930151" />
+    <state width="1636" height="261" key="GridCell.Tab.0.center/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595871227080" />
+    <state width="1636" height="261" key="GridCell.Tab.0.left" timestamp="1595916930150">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1636" height="261" key="GridCell.Tab.0.left/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595915926256" />
+    <state width="1636" height="261" key="GridCell.Tab.0.left/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595916930150" />
+    <state width="1636" height="261" key="GridCell.Tab.0.left/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595871227079" />
+    <state width="1636" height="261" key="GridCell.Tab.0.right" timestamp="1595916930151">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1636" height="261" key="GridCell.Tab.0.right/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595915926258" />
+    <state width="1636" height="261" key="GridCell.Tab.0.right/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595916930151" />
+    <state width="1636" height="261" key="GridCell.Tab.0.right/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595871227080" />
+    <state x="341" y="154" key="SettingsEditor" timestamp="1595907454063">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="341" y="154" key="SettingsEditor/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595907454063" />
+    <state x="341" y="147" key="SettingsEditor/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595868881469" />
+    <state width="600" height="449" key="javadoc.popup" timestamp="1595905858874">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="600" height="449" key="javadoc.popup/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595905858874" />
+    <state width="600" height="424" key="javadoc.popup/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595868441664" />
+  </component>
+</project>
