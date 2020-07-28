@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94cd4130-d1ed-4a12-aebc-e07df9279770" name="Default Changelist" comment="" />
+    <list default="true" id="94cd4130-d1ed-4a12-aebc-e07df9279770" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +16,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fH9jqsjL5cdQ9FjIUMzTiD6Ktc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -171,14 +177,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in driver.py" />
-      <item itemvalue="Python tests.pytest in test_home_page.py" />
-      <item itemvalue="Python tests.pytest for testcases.test_home_page.TestHomePage.test_click_input" />
       <item itemvalue="Python tests.pytest for driver.TestDriver" />
       <item itemvalue="Python tests.pytest for driver.TestDriver.test_login" />
       <item itemvalue="Python tests.pytest for test_home_page.TestHomePage" />
       <item itemvalue="Python tests.pytest for test_home_page.TestHomePage.test_click_input" />
       <item itemvalue="Python tests.pytest for test_home_page.TestHomePage.test_switch_tab_to_insurance" />
+      <item itemvalue="Python tests.pytest for testcases.test_home_page.TestHomePage.test_click_input" />
+      <item itemvalue="Python tests.pytest in driver.py" />
+      <item itemvalue="Python tests.pytest in test_home_page.py" />
     </list>
     <recent_temporary>
       <list>
@@ -225,29 +231,29 @@
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state x="535" y="134" key="#test_home_page/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595868749826" />
-    <state width="1636" height="261" key="GridCell.Tab.0.bottom" timestamp="1595916930152">
+    <state width="1636" height="261" key="GridCell.Tab.0.bottom" timestamp="1595919363493">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state width="1636" height="261" key="GridCell.Tab.0.bottom/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595915926258" />
-    <state width="1636" height="261" key="GridCell.Tab.0.bottom/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595916930152" />
+    <state width="1636" height="261" key="GridCell.Tab.0.bottom/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595919363493" />
     <state width="1636" height="261" key="GridCell.Tab.0.bottom/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595871227081" />
-    <state width="1636" height="261" key="GridCell.Tab.0.center" timestamp="1595916930151">
+    <state width="1636" height="261" key="GridCell.Tab.0.center" timestamp="1595919363493">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state width="1636" height="261" key="GridCell.Tab.0.center/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595915926257" />
-    <state width="1636" height="261" key="GridCell.Tab.0.center/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595916930151" />
+    <state width="1636" height="261" key="GridCell.Tab.0.center/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595919363493" />
     <state width="1636" height="261" key="GridCell.Tab.0.center/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595871227080" />
-    <state width="1636" height="261" key="GridCell.Tab.0.left" timestamp="1595916930150">
+    <state width="1636" height="261" key="GridCell.Tab.0.left" timestamp="1595919363488">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state width="1636" height="261" key="GridCell.Tab.0.left/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595915926256" />
-    <state width="1636" height="261" key="GridCell.Tab.0.left/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595916930150" />
+    <state width="1636" height="261" key="GridCell.Tab.0.left/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595919363488" />
     <state width="1636" height="261" key="GridCell.Tab.0.left/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595871227079" />
-    <state width="1636" height="261" key="GridCell.Tab.0.right" timestamp="1595916930151">
+    <state width="1636" height="261" key="GridCell.Tab.0.right" timestamp="1595919363493">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state width="1636" height="261" key="GridCell.Tab.0.right/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595915926258" />
-    <state width="1636" height="261" key="GridCell.Tab.0.right/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595916930151" />
+    <state width="1636" height="261" key="GridCell.Tab.0.right/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595919363493" />
     <state width="1636" height="261" key="GridCell.Tab.0.right/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595871227080" />
     <state x="341" y="154" key="SettingsEditor" timestamp="1595907454063">
       <screen x="0" y="23" width="1680" height="1027" />
