@@ -4,7 +4,10 @@
     <list default="true" id="94cd4130-d1ed-4a12-aebc-e07df9279770" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pay_info_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pay_info_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/test_home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_pay_info_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_pay_info_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/file" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/testcases" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -45,7 +50,7 @@
       <recent name="$PROJECT_DIR$/testcases" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in etransfer_auto_test">
+  <component name="RunManager" selected="Python tests.pytest for test_school_info_page.TestSchoolInfoPage">
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="etransfer_auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,21 +81,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_home_page.TestHomePage.test_click_search_box" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="etransfer_auto_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home_page.TestHomePage.test_click_search_box&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_pay_info_page.TestPayInfoPage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="etransfer_auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,7 +96,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_pay_info_page.TestPayInfoPage.test_input_amount" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_pay_info_page.TestPayInfoPage.test_goto_pay_info_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="etransfer_auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,7 +107,37 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pay_info_page.TestPayInfoPage.test_input_amount&quot;" />
+      <option name="_new_target" value="&quot;test_pay_info_page.TestPayInfoPage.test_goto_pay_info_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_school_info_page.TestSchoolInfoPage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="etransfer_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_school_info_page.TestSchoolInfoPage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_school_info_page.TestSchoolInfoPage.test_goto_school_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="etransfer_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_school_info_page.TestSchoolInfoPage.test_goto_school_page&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -151,21 +171,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in etransfer_auto_test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="etransfer_auto_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in test_home_page.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="etransfer_auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,18 +190,18 @@
       <item itemvalue="Python tests.pytest in driver.py" />
       <item itemvalue="Python tests.pytest in test_home_page.py" />
       <item itemvalue="Python tests.pytest for testcases.test_home_page.TestHomePage.test_click_input" />
-      <item itemvalue="Python tests.pytest for test_home_page.TestHomePage" />
-      <item itemvalue="Python tests.pytest for test_home_page.TestHomePage.test_click_search_box" />
       <item itemvalue="Python tests.pytest for test_pay_info_page.TestPayInfoPage" />
-      <item itemvalue="Python tests.pytest for test_pay_info_page.TestPayInfoPage.test_input_amount" />
-      <item itemvalue="Python tests.pytest in etransfer_auto_test" />
+      <item itemvalue="Python tests.pytest for test_home_page.TestHomePage" />
+      <item itemvalue="Python tests.pytest for test_pay_info_page.TestPayInfoPage.test_goto_pay_info_page" />
+      <item itemvalue="Python tests.pytest for test_school_info_page.TestSchoolInfoPage" />
+      <item itemvalue="Python tests.pytest for test_school_info_page.TestSchoolInfoPage.test_goto_school_page" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in etransfer_auto_test" />
+        <item itemvalue="Python tests.pytest for test_school_info_page.TestSchoolInfoPage" />
+        <item itemvalue="Python tests.pytest for test_school_info_page.TestSchoolInfoPage.test_goto_school_page" />
         <item itemvalue="Python tests.pytest for test_pay_info_page.TestPayInfoPage" />
-        <item itemvalue="Python tests.pytest for test_pay_info_page.TestPayInfoPage.test_input_amount" />
-        <item itemvalue="Python tests.pytest for test_home_page.TestHomePage.test_click_search_box" />
+        <item itemvalue="Python tests.pytest for test_pay_info_page.TestPayInfoPage.test_goto_pay_info_page" />
         <item itemvalue="Python tests.pytest for test_home_page.TestHomePage" />
       </list>
     </recent_temporary>
@@ -236,40 +241,40 @@
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state x="535" y="134" key="#test_home_page/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595868749826" />
-    <state width="1636" height="261" key="GridCell.Tab.0.bottom" timestamp="1595951971426">
+    <state width="1636" height="261" key="GridCell.Tab.0.bottom" timestamp="1596036789884">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state width="1636" height="261" key="GridCell.Tab.0.bottom/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595915926258" />
-    <state width="1636" height="261" key="GridCell.Tab.0.bottom/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595951971426" />
+    <state width="1636" height="261" key="GridCell.Tab.0.bottom/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1596036789884" />
     <state width="1636" height="261" key="GridCell.Tab.0.bottom/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595871227081" />
-    <state width="1636" height="261" key="GridCell.Tab.0.center" timestamp="1595951971426">
+    <state width="1636" height="261" key="GridCell.Tab.0.center" timestamp="1596036789883">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state width="1636" height="261" key="GridCell.Tab.0.center/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595915926257" />
-    <state width="1636" height="261" key="GridCell.Tab.0.center/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595951971426" />
+    <state width="1636" height="261" key="GridCell.Tab.0.center/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1596036789883" />
     <state width="1636" height="261" key="GridCell.Tab.0.center/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595871227080" />
-    <state width="1636" height="261" key="GridCell.Tab.0.left" timestamp="1595951971425">
+    <state width="1636" height="261" key="GridCell.Tab.0.left" timestamp="1596036789883">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state width="1636" height="261" key="GridCell.Tab.0.left/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595915926256" />
-    <state width="1636" height="261" key="GridCell.Tab.0.left/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595951971425" />
+    <state width="1636" height="261" key="GridCell.Tab.0.left/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1596036789883" />
     <state width="1636" height="261" key="GridCell.Tab.0.left/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595871227079" />
-    <state width="1636" height="261" key="GridCell.Tab.0.right" timestamp="1595951971426">
+    <state width="1636" height="261" key="GridCell.Tab.0.right" timestamp="1596036789884">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state width="1636" height="261" key="GridCell.Tab.0.right/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595915926258" />
-    <state width="1636" height="261" key="GridCell.Tab.0.right/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595951971426" />
+    <state width="1636" height="261" key="GridCell.Tab.0.right/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1596036789884" />
     <state width="1636" height="261" key="GridCell.Tab.0.right/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595871227080" />
     <state x="341" y="154" key="SettingsEditor" timestamp="1595907454063">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="154" key="SettingsEditor/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595907454063" />
     <state x="341" y="147" key="SettingsEditor/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595868881469" />
-    <state width="600" height="425" key="javadoc.popup" timestamp="1595938800411">
+    <state width="600" height="425" key="javadoc.popup" timestamp="1596033715209">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state width="600" height="449" key="javadoc.popup/0.23.1680.1027/-114.-1057.1920.1057@0.23.1680.1027" timestamp="1595905858874" />
-    <state width="600" height="425" key="javadoc.popup/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1595938800411" />
+    <state width="600" height="425" key="javadoc.popup/0.23.1680.970/-114.-1057.1920.1057@0.23.1680.970" timestamp="1596033715209" />
     <state width="600" height="424" key="javadoc.popup/1680.-383.1920.1057/0.23.1680.970@0.23.1680.970" timestamp="1595868441664" />
   </component>
 </project>

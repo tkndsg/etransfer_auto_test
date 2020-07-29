@@ -48,7 +48,6 @@ class BasePage:
 
     # 定位单个元素
     def find_element(self, locator, value, timeout=10):
-
         try:
             try:
                 timeout_int = int(timeout)
@@ -70,13 +69,34 @@ class BasePage:
                     return element
                 else:
                     time.sleep(1)
-
             else:
                 # 截图
                 self.screenshot()
                 # 记录日志
                 logger.info("timeout, element {} not found!".format(value))
                 return None
+
+    # 定位多个元素
+    def find_elements(self, locator, value, timeout=5):
+        try:
+            try:
+                timeout_int = int(timeout)
+            except TypeError:
+                raise ValueError("Type 'timeout' error, must be type int() ")
+            try:
+                locator = (LOCATOR_LIST[locator], value)
+            except KeyError:
+                raise KeyError(
+                    "Please use a locator：'id_'、'name'、'class_name'、'css'、'xpath'、'link_text'、'partial_link_text'.")
+            WebDriverWait(self._driver, timeout_int).until(
+                EC.presence_of_all_elements_located(locator))
+            return self._driver.find_elements(*locator)
+        except:
+            # 截图
+            self.screenshot()
+            # 记录日志
+            logger.info("timeout, element {} not found!".format(value))
+            return None
 
     # 上滑动页面，看下方的内容
     def slip_down(self, step="300", times=1):
@@ -139,5 +159,12 @@ class BasePage:
             flag = False
         finally:
             return flag
+
+    def back_to_last_page(self):
+        self._driver.back()
+
+    def quit_browser(self):
+        time.sleep(3)
+        self._driver.quit()
 
 

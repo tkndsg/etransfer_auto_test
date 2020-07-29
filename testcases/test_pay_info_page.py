@@ -14,11 +14,7 @@ class TestPayInfoPage:
         self.pay_info_page = PayInfoPage(self.driver)
 
     def test_goto_pay_info_page(self):
-        self.home_page.click_search_box()
-        assert "博斯希尔中学" in self.home_page._driver.page_source
-        self.home_page.search_box_input("悉尼大学")
-        self.home_page.select_first_school()
-        assert "The University of Sydney" in self.home_page._driver.page_source
+        self.home_page.goto_pay_info_page("tuition", "first")
 
     def test_check_pay_info_page(self):
         school_name = self.pay_info_page.find_school_name()
@@ -36,4 +32,4 @@ class TestPayInfoPage:
         assert "学校收款账户信息" in self.pay_info_page._driver.page_source
 
     def teardown_class(self):
-        self.driver.quit()
+        self.pay_info_page.close_browser()

@@ -37,14 +37,15 @@ class TestHomePage:
         self.home_page.click_tuition_tab()
         assert "搜索你的学校开始汇款" in self.home_page._driver.page_source
 
-    def test_click_search_box(self):
+    @pytest.mark.run(order=6)
+    def test_search_school_and_select_one(self):
         self.home_page.click_search_box()
         assert "博斯希尔中学" in self.home_page._driver.page_source
         self.home_page.search_box_input("悉尼大学")
-        self.home_page.select_first_school()
+        sleep(2)
+        self.home_page.select_first_option()
         assert "The University of Sydney" in self.home_page._driver.page_source
         sleep(1)
 
     def teardown_class(self):
-        self.driver.quit()
-
+        self.home_page.quit_browser()
