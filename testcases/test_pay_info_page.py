@@ -32,4 +32,4 @@ class TestPayInfoPage:
         assert "学校收款账户信息" in self.pay_info_page._driver.page_source
 
     def teardown_class(self):
-        self.pay_info_page.close_browser()
+        self.pay_info_page.quit_browser()
